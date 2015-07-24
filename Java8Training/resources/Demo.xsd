@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Demo"
+	xmlns:tns="http://www.example.org/Demo" elementFormDefault="qualified">
+
+    <element name="Person" type="tns:PersonType"></element>
+
+	<complexType name="PersonType">
+		<sequence>
+			<element name="Name" type="string"></element>
+			<element name="Address" type="tns:AddressType"></element>
+		</sequence>
+	</complexType>
+
+    <complexType name="AddressType">
+    	<sequence>
+    		<element name="Number" type="unsignedInt"></element>
+    		<element name="Street" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>

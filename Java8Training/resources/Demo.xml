@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Person xmlns:tns="http://www.example.org/Demo"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/Demo Demo.xsd ">
+	<tns:Name>Koray</tns:Name>
+	<tns:Address>
+		<tns:Number>19230</tns:Number>
+		<tns:Street>Kadikoy</tns:Street>
+	</tns:Address>
+	<tns:Address>
+		<tns:Number>19231</tns:Number>
+		<tns:Street>Levent</tns:Street>
+	</tns:Address>
+	<tns:Address>
+		<tns:Number>19232</tns:Number>
+		<tns:Street>Etiler</tns:Street>
+	</tns:Address>
+</tns:Person>

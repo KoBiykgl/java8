@@ -17,8 +17,7 @@ public class JaxbDemo {
 
 			System.out.println("XML --> Java");
 			Unmarshaller u = context.createUnmarshaller();
-			PersonType person = (PersonType) u.unmarshal(new FileInputStream(
-					FilenameConstants.XML));
+			PersonType person = (PersonType) u.unmarshal(new FileInputStream(FilenameConstants.XML));
 
 			System.out.println(person.getName());
 			System.out.println(person.getAddress().getNumber());
